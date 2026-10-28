@@ -8,7 +8,7 @@ Querno is a local LaTeX editor with a live PDF preview, native Mac controls, and
 
 Requires **macOS 13.5 or later on Apple Silicon**.
 
-1. [Download Querno 1.0.0](https://github.com/yssf-c/Querno-releases/releases/download/v1.0.0/Querno-1.0.0-macOS-arm64.zip).
+1. [Download the latest Querno release](https://querno.vercel.app/#download).
 2. Open the ZIP archive and drag **Querno.app** into Applications.
 3. Open Querno from Applications or Spotlight.
 
@@ -18,10 +18,6 @@ This release is ad-hoc signed and is not yet Developer ID signed or notarized. m
 
 ## Verify the download
 
-Download the [SHA-256 checksum](https://github.com/yssf-c/Querno-releases/releases/download/v1.0.0/Querno-1.0.0-macOS-arm64.zip.sha256) beside the ZIP, then run:
-
-```sh
-shasum -a 256 -c Querno-1.0.0-macOS-arm64.zip.sha256
-```
+Download the ZIP and its matching `.zip.sha256` file from the [latest release](https://github.com/yssf-c/Querno-releases/releases/latest). The [website’s verification instructions](https://querno.vercel.app/#verify) automatically show the command for the current release. Run that command in the folder containing both files.
 
 This repository distributes release archives. Third-party notices and licenses are included in the app bundle.
